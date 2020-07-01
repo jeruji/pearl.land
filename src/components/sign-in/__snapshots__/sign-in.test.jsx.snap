@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sign-in submit Renders 1`] = `
+<div>
+  <div
+    class="sign-in"
+  >
+    <h2>
+      I already have an account?
+    </h2>
+    <span>
+      Sign in with your email and password
+    </span>
+    <form>
+      <div
+        class="group"
+      >
+        <input
+          aria-label="email"
+          class="form-input"
+          name="email"
+          type="email"
+          value=""
+        />
+        <label
+          class=" form-input-label"
+        >
+          email
+        </label>
+      </div>
+      <div
+        class="group"
+      >
+        <input
+          aria-label="password"
+          class="form-input"
+          name="password"
+          type="password"
+          value=""
+        />
+        <label
+          class=" form-input-label"
+        >
+          password
+        </label>
+      </div>
+      <button
+        class="custom-button"
+        type="submit"
+      >
+        Sign in
+      </button>
+    </form>
+  </div>
+</div>
+`;
